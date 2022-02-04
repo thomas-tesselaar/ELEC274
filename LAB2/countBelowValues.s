@@ -24,7 +24,7 @@ GenerateListValues:
 
  CountBelowValues:
  		
-		ldw r6, 0(r2)
+		ldw r4, 0(r6)
 		ldw r7, THRESHOLD(r0)
 		blt r6, r7, AddCount
 		subi r9, r9, 1
