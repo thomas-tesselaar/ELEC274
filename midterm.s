@@ -54,9 +54,9 @@ _end:
 
 # ------------------------------------------------------------------------
 
-N:			.word	4  
+N:		.word	4  
 PARAM:		.word   4 
-NEWLIST:   .skip	16
+NEWLIST:   	.skip	16
 LIST1:		.word	8, -6, 4, -2
 LIST2:		.word	-1, 2, -3, 4
 LIST3:		.word	7, 5, 3, 1
